@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/Pet-Adaption-Figma//_next/:path+",
+        "destination": "/Pet-Adaption-Figma/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
